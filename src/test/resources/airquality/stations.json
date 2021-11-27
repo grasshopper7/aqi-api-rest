@@ -1,0 +1,435 @@
+{
+    "status": "ok",
+    "data": [
+        {
+            "lat": 52.420277,
+            "lon": 12.552222,
+            "uid": 6180,
+            "aqi": "15",
+            "station": {
+                "name": "Brandenburg a.d.Havel, Germany",
+                "time": "2021-11-21T10:00:00+02:00"
+            }
+        },
+        {
+            "lat": 52.194168,
+            "lon": 12.561389,
+            "uid": 9312,
+            "aqi": "16",
+            "station": {
+                "name": "L¸tte (Belzig) +, Germany",
+                "time": "2021-11-21T10:00:00+02:00"
+            }
+        },
+        {
+            "lat": 50.37248,
+            "lon": 12.61538,
+            "uid": 2741,
+            "aqi": "38",
+            "station": {
+                "name": "Prebuz, Karlovarsky, Czech Republic",
+                "time": "2021-11-21T09:00:00+02:00"
+            }
+        },
+        {
+            "lat": 50.72695,
+            "lon": 12.457219,
+            "uid": 11573,
+            "aqi": "14",
+            "station": {
+                "name": "Zwickau-Werdauer Straﬂe, Germany",
+                "time": "2021-11-21T10:00:00+02:00"
+            }
+        },
+        {
+            "lat": 52.438114,
+            "lon": 13.38772,
+            "uid": 10040,
+            "aqi": "20",
+            "station": {
+                "name": "Mariendorf, Mariendorfer Damm, Berlin, Germany",
+                "time": "2021-11-21T10:00:00+02:00"
+            }
+        },
+        {
+            "lat": 52.520008,
+            "lon": 13.404954,
+            "uid": 6132,
+            "aqi": "20",
+            "station": {
+                "name": "Berlin, Germany",
+                "time": "2021-11-21T10:00:00+02:00"
+            }
+        },
+        {
+            "lat": 52.47319,
+            "lon": 13.225144,
+            "uid": 10031,
+            "aqi": "16",
+            "station": {
+                "name": "Grunewald (3.5 m), Berlin, Germany",
+                "time": "2021-11-21T10:00:00+02:00"
+            }
+        },
+        {
+            "lat": 49.738586,
+            "lon": 13.387257,
+            "uid": 2737,
+            "aqi": "61",
+            "station": {
+                "name": "Plzen - mobil 20.03.2013 Plzen - Lititce, Plzensky, Czech Republic",
+                "time": "2021-11-21T09:00:00+02:00"
+            }
+        },
+        {
+            "lat": 49.486805,
+            "lon": 11.785587,
+            "uid": 6051,
+            "aqi": "14",
+            "station": {
+                "name": "Lohe, Sulzbach-Rosenberg, Germany",
+                "time": "2021-11-21T10:00:00+02:00"
+            }
+        },
+        {
+            "lat": 50.578587,
+            "lon": 13.007584,
+            "uid": 10884,
+            "aqi": "12",
+            "station": {
+                "name": "Annaberg-Buchholz, Germany",
+                "time": "2021-11-21T10:00:00+02:00"
+            }
+        },
+        {
+            "lat": 50.06586,
+            "lon": 12.363442,
+            "uid": 2739,
+            "aqi": "38",
+            "station": {
+                "name": "Cheb, Karlovarsky, Czech Republic",
+                "time": "2021-11-21T09:00:00+02:00"
+            }
+        },
+        {
+            "lat": 50.85906,
+            "lon": 12.868352,
+            "uid": 11571,
+            "aqi": "15",
+            "station": {
+                "name": "Chemnitz-Leipziger Str., Germany",
+                "time": "2021-11-21T10:00:00+02:00"
+            }
+        },
+        {
+            "lat": 52.484165,
+            "lon": 13.123611,
+            "uid": 6188,
+            "aqi": "16",
+            "station": {
+                "name": "Potsdam, Groﬂ Glienicke, Germany",
+                "time": "2021-11-21T10:00:00+02:00"
+            }
+        },
+        {
+            "lat": 52.40111,
+            "lon": 13.059722,
+            "uid": 6189,
+            "aqi": "18",
+            "station": {
+                "name": "Potsdam-Zentrum, Germany",
+                "time": "2021-11-21T10:00:00+02:00"
+            }
+        },
+        {
+            "lat": 49.770126,
+            "lon": 13.368221,
+            "uid": 2734,
+            "aqi": "61",
+            "station": {
+                "name": "Plzen-Lochotin, Plzensky, Czech Republic",
+                "time": "2021-11-21T09:00:00+02:00"
+            }
+        },
+        {
+            "lat": 49.400608,
+            "lon": 13.286923,
+            "uid": 11705,
+            "aqi": "50",
+            "station": {
+                "name": "Klatovy soud, Plzensky, Czech Republic",
+                "time": "2021-11-21T10:00:00+02:00"
+            }
+        },
+        {
+            "lat": 49.438076,
+            "lon": 12.5554495,
+            "uid": 6052,
+            "aqi": "18",
+            "station": {
+                "name": "Altenschneeberg, Tiefenbach, Germany",
+                "time": "2021-11-21T10:00:00+02:00"
+            }
+        },
+        {
+            "lat": 52.40917,
+            "lon": 12.548333,
+            "uid": 6195,
+            "aqi": "15",
+            "station": {
+                "name": "Brandenburg,Neuendorfer Str. v, Germany",
+                "time": "2021-11-21T10:00:00+02:00"
+            }
+        },
+        {
+            "lat": 50.542564,
+            "lon": 12.7792225,
+            "uid": 10900,
+            "aqi": "15",
+            "station": {
+                "name": "Schwartenberg, Germany",
+                "time": "2021-11-21T10:00:00+02:00"
+            }
+        },
+        {
+            "lat": 50.435818,
+            "lon": 12.58781,
+            "uid": 10887,
+            "aqi": "17",
+            "station": {
+                "name": "Carlsfeld, Germany",
+                "time": "2021-11-21T10:00:00+02:00"
+            }
+        },
+        {
+            "lat": 52.46361,
+            "lon": 13.31825,
+            "uid": 10035,
+            "aqi": "16",
+            "station": {
+                "name": "Steglitz-Schildhornstr., Berlin, Germany",
+                "time": "2021-11-21T10:00:00+02:00"
+            }
+        },
+        {
+            "lat": 48.169445,
+            "lon": 11.65,
+            "uid": 6041,
+            "aqi": "4",
+            "station": {
+                "name": "Johanneskirchen, M¸nchen, Germany",
+                "time": "2021-11-21T10:00:00+02:00"
+            }
+        },
+        {
+            "lat": 48.540527,
+            "lon": 12.156114,
+            "uid": 6047,
+            "aqi": "8",
+            "station": {
+                "name": "Podewilsstraﬂe, Landshut, Germany",
+                "time": "2021-11-21T09:00:00+02:00"
+            }
+        },
+        {
+            "lat": 49.09573,
+            "lon": 11.807159,
+            "uid": 6050,
+            "aqi": "18",
+            "station": {
+                "name": "Rathaus, Regensburg, Germany",
+                "time": "2021-11-21T10:00:00+02:00"
+            }
+        },
+        {
+            "lat": 49.74733,
+            "lon": 13.381039,
+            "uid": 2733,
+            "aqi": "53",
+            "station": {
+                "name": "Plzen-stred, Plzensky, Czech Republic",
+                "time": "2021-11-21T09:00:00+02:00"
+            }
+        },
+        {
+            "lat": 50.172825,
+            "lon": 12.672818,
+            "uid": 2742,
+            "aqi": "68",
+            "station": {
+                "name": "Sokolov, Karlovarsky, Czech Republic",
+                "time": "2021-11-21T10:00:00+02:00"
+            }
+        },
+        {
+            "lat": 51.339767,
+            "lon": 12.375096,
+            "uid": 10895,
+            "aqi": "15",
+            "station": {
+                "name": "Leipzig-Mitte, Germany",
+                "time": "2021-11-21T10:00:00+02:00"
+            }
+        },
+        {
+            "lat": 49.73245,
+            "lon": 13.402281,
+            "uid": 2731,
+            "aqi": "30",
+            "station": {
+                "name": "Plzen-Slovany, Plzensky, Czech Republic",
+                "time": "2021-11-21T09:00:00+02:00"
+            }
+        },
+        {
+            "lat": 49.669582,
+            "lon": 12.677884,
+            "uid": 2738,
+            "aqi": "15",
+            "station": {
+                "name": "Primda, Plzensky, Czech Republic",
+                "time": "2021-11-21T10:00:00+02:00"
+            }
+        },
+        {
+            "lat": 50.376587,
+            "lon": 13.327622,
+            "uid": 2753,
+            "aqi": "53",
+            "station": {
+                "name": "Tusimice, Ustecky, Czech Republic",
+                "time": "2021-11-21T09:00:00+02:00"
+            }
+        },
+        {
+            "lat": 50.606945,
+            "lon": 12.213889,
+            "uid": 10886,
+            "aqi": "18",
+            "station": {
+                "name": "Brockau, Germany",
+                "time": "2021-11-21T10:00:00+02:00"
+            }
+        },
+        {
+            "lat": 50.482967,
+            "lon": 12.139208,
+            "uid": 10898,
+            "aqi": "13",
+            "station": {
+                "name": "Plauen-Sued, Germany",
+                "time": "2021-11-21T10:00:00+02:00"
+            }
+        },
+        {
+            "lat": 50.370716,
+            "lon": 12.468171,
+            "uid": 10894,
+            "aqi": "11",
+            "station": {
+                "name": "Klingenthal, Germany",
+                "time": "2021-11-21T10:00:00+02:00"
+            }
+        },
+        {
+            "lat": 51.307777,
+            "lon": 13.0025,
+            "uid": 10888,
+            "aqi": "16",
+            "station": {
+                "name": "Collmberg, Germany",
+                "time": "2021-11-21T10:00:00+02:00"
+            }
+        },
+        {
+            "lat": 48.25778,
+            "lon": 13.039722,
+            "uid": 2847,
+            "aqi": "57",
+            "station": {
+                "name": "Kolpingplatz, Ecke Ringstraﬂe 23 (Parkplatz Sonderschule), Austria",
+                "time": "2021-11-21T09:00:00+02:00"
+            }
+        },
+        {
+            "lat": 48.90714,
+            "lon": 11.890853,
+            "uid": 6046,
+            "aqi": "17",
+            "station": {
+                "name": "Regensburger Straﬂe, Kelheim, Germany",
+                "time": "2021-11-21T10:00:00+02:00"
+            }
+        },
+        {
+            "lat": 48.85424,
+            "lon": 11.77072,
+            "uid": 6048,
+            "aqi": "17",
+            "station": {
+                "name": "Eining, Neustadt a.d.Donau, Germany",
+                "time": "2021-11-21T10:00:00+02:00"
+            }
+        },
+        {
+            "lat": 50.42759,
+            "lon": 13.130143,
+            "uid": 2748,
+            "aqi": "53",
+            "station": {
+                "name": "Medenec, Ustecky, Czech Republic",
+                "time": "2021-11-21T09:00:00+02:00"
+            }
+        },
+        {
+            "lat": 49.9458,
+            "lon": 11.581097,
+            "uid": 6054,
+            "aqi": "15",
+            "station": {
+                "name": "Hohenzollernring, Bayreuth, Germany",
+                "time": "2021-11-21T10:00:00+02:00"
+            }
+        },
+        {
+            "lat": 48.17221,
+            "lon": 12.830502,
+            "uid": 6039,
+            "aqi": "8",
+            "station": {
+                "name": "Marktler Straﬂe, Burghausen, Germany",
+                "time": "2021-11-21T10:00:00+02:00"
+            }
+        },
+        {
+            "lat": 51.32512,
+            "lon": 12.298922,
+            "uid": 11572,
+            "aqi": "10",
+            "station": {
+                "name": "Leipzig-Luetzner Straﬂe, Germany",
+                "time": "2021-11-21T10:00:00+02:00"
+            }
+        },
+        {
+            "lat": 52.389816,
+            "lon": 13.090314,
+            "uid": 6198,
+            "aqi": "18",
+            "station": {
+                "name": "Potsdam, Groﬂbeerenstr. v, Germany",
+                "time": "2021-11-21T10:00:00+02:00"
+            }
+        },
+        {
+            "lat": 52.39389,
+            "lon": 13.037778,
+            "uid": 6199,
+            "aqi": "18",
+            "station": {
+                "name": "Potsdam, Zeppelinstr. v, Germany",
+                "time": "2021-11-21T10:00:00+02:00"
+            }
+        }
+    ]
+}
