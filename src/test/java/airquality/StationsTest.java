@@ -25,8 +25,7 @@ public class StationsTest {
 
 	@Test
 	public void liveRestApiResponseStatusTest() {
-		given().when().queryParam("token", "<TOKEN>")
-				.queryParam("latlng", "52.520008,13.404954,48.137154,11.576124")
+		given().when().queryParam("token", "<TOKEN>").queryParam("latlng", "52.520008,13.404954,48.137154,11.576124")
 				.get("https://api.waqi.info/map/bounds/").then().statusCode(200).body("status", equalTo("ok"));
 	}
 

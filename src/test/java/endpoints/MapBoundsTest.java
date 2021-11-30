@@ -1,40 +1,23 @@
 package endpoints;
 
-import static io.restassured.RestAssured.given;
-import static org.hamcrest.MatcherAssert.assertThat;
-import static org.hamcrest.Matchers.equalTo;
-
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-import base.BaseTest;
-import io.restassured.builder.RequestSpecBuilder;
-import io.restassured.path.json.JsonPath;
+import base.BaseSpecs;
 import io.restassured.specification.RequestSender;
-import io.restassured.specification.RequestSpecification;
 
-public class MapBoundsTest extends BaseTest {
+public class MapBoundsTest {
 
-	private static JsonPath jsonPath;
+	private static RequestSender requestSender;
 
 	@BeforeClass
 	public static void updateSpecifications() {
-		RequestSpecification reqSpec = new RequestSpecBuilder().addRequestSpecification(baseRequestSpecification)
-				.setBasePath("/map/bounds/").build();
-
-		RequestSender requestSender = given(reqSpec, baseResponseSpecification);
-
-		jsonPath = requestSender.get("?latlng=52.520008,13.404954,48.137154,11.576124").then().extract().jsonPath();
-		jsonPath.setRootPath("data");
-
-		System.out.println("--- STATIONS BETWEEN BERLIN & MUNICH ---");
-
-		System.out.println(jsonPath.prettyPrint());
-
+		requestSender = BaseSpecs.requestSender("/map/bounds/");
 	}
 
 	@Test
 	public void getStationsBetweenLatitudeLongitude() {
-		assertThat(jsonPath.getList("aqi").get(0), equalTo(11));
+		System.out.println(Thread.currentThread().getId() + "--- STATIONS BETWEEN BERLIN & MUNICH ---");
+		requestSender.get("?latlng=52.520008,13.404954,48.137154,11.576124").then().log().body();
 	}
 }
