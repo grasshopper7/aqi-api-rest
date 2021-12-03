@@ -1,35 +1,26 @@
 package endpoints;
 
-import org.junit.BeforeClass;
-import org.junit.Test;
+import static base.BaseSpecs.requestSenderFeed;
 
-import base.BaseSpecs;
-import io.restassured.specification.RequestSender;
+import org.junit.Test;
 
 public class CityFeedTest {
 
-	private static RequestSender requestSender;
-
-	@BeforeClass
-	public static void updateSpecifications() {
-		requestSender = BaseSpecs.requestSender("/feed");
-	}
-
 	@Test
 	public void getLondonAirData() {
-		System.out.println(Thread.currentThread().getId()+"--- LONDON AIR DATA ---");
-		requestSender.get("/london/").then().log().body();
+		System.out.println(Thread.currentThread().getId() + "--- LONDON AIR DATA ---");
+		requestSenderFeed().get("/london/").then().log().body();
 	}
 
 	@Test
 	public void getDefaultAirData() {
-		System.out.println(Thread.currentThread().getId()+"--- DEFAULT CITY AIR DATA ---");
-		requestSender.get("/here/").then().log().body();
+		System.out.println(Thread.currentThread().getId() + "--- DEFAULT CITY AIR DATA ---");
+		requestSenderFeed().get("/here/").then().log().body();
 	}
 
 	@Test
 	public void getLatLongCityAirData() {
-		System.out.println(Thread.currentThread().getId()+"--- LAT LONG CITY AIR DATA ---");
-		requestSender.get("/geo:49.460983;11.061859/").then().log().body();
+		System.out.println(Thread.currentThread().getId() + "--- LAT LONG CITY AIR DATA ---");
+		requestSenderFeed().get("/geo:49.460983;11.061859/").then().log().body();
 	}
 }

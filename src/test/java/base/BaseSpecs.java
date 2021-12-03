@@ -1,27 +1,39 @@
 package base;
 
 import static io.restassured.RestAssured.given;
+import static io.restassured.RestAssured.requestSpecification;
+import static io.restassured.RestAssured.responseSpecification;
 import static org.hamcrest.Matchers.equalTo;
 
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.builder.ResponseSpecBuilder;
 import io.restassured.specification.RequestSender;
 import io.restassured.specification.RequestSpecification;
-import io.restassured.specification.ResponseSpecification;
 
-public class BaseSpecs {
+public abstract class BaseSpecs {
 
-	public static RequestSpecification requestSpec() {
-		return new RequestSpecBuilder().setBaseUri("https://api.waqi.info").addQueryParam("token", "<TOKEN>").build();
-	}
+	static {
+		requestSpecification = new RequestSpecBuilder().setBaseUri("https://api.waqi.info")
+				.addQueryParam("token", "1a5d8f027e344fa191b88e966bdb5d4aa4853d4a").build();
 
-	public static ResponseSpecification responseSpec() {
-		return new ResponseSpecBuilder().expectStatusCode(200).expectBody("status", equalTo("ok")).build();
+		responseSpecification = new ResponseSpecBuilder().expectStatusCode(200).expectBody("status", equalTo("ok"))
+				.build();
 	}
 
 	public static RequestSender requestSender(String path) {
-		RequestSpecification reqSpec = new RequestSpecBuilder().addRequestSpecification(requestSpec()).setBasePath(path)
-				.build();
-		return given(reqSpec, responseSpec());
+		RequestSpecification reqSpec = new RequestSpecBuilder().setBasePath(path).build();
+		return given(reqSpec);
+	}
+
+	public static RequestSender requestSenderFeed() {
+		return requestSender("/feed");
+	}
+
+	public static RequestSender requestSenderMapBounds() {
+		return requestSender("/map/bounds");
+	}
+
+	public static RequestSender requestSenderSearch() {
+		return requestSender("/search");
 	}
 }
